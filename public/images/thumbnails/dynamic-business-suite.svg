@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dbsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141416"/>
+      <stop offset="50%" stop-color="#0E0E10"/>
+      <stop offset="100%" stop-color="#080809"/>
+    </linearGradient>
+    <radialGradient id="dbsGlow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#C7F36B" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#C7F36B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#292929" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="720" fill="url(#dbsBg)"/>
+  <rect width="1280" height="720" fill="url(#grid)"/>
+  <rect width="1280" height="720" fill="url(#dbsGlow)"/>
+
+  <!-- Top Badges -->
+  <g transform="translate(80, 70)">
+    <rect width="180" height="36" rx="18" fill="#171717" stroke="#292929"/>
+    <circle cx="20" cy="18" r="5" fill="#C7F36B"/>
+    <text x="35" y="23" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F5F5F5" letter-spacing="1">AI VIDEO PRODUCTION</text>
+
+    <rect x="200" width="140" height="36" rx="18" fill="#171717" stroke="#292929"/>
+    <text x="270" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#A1A1AA">16:9 PROMO</text>
+  </g>
+
+  <!-- Left Content Area -->
+  <g transform="translate(80, 190)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#C7F36B" letter-spacing="3">DYNAMIC SOLUTIONS PAKISTAN</text>
+    <text x="0" y="55" font-family="system-ui, sans-serif" font-size="52" font-weight="800" fill="#F5F5F5">Dynamic Business Suite</text>
+    <text x="0" y="110" font-family="system-ui, sans-serif" font-size="28" font-weight="500" fill="#A1A1AA">Software Promotional Video &amp; Feature Walkthrough</text>
+    
+    <!-- Feature Chips -->
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="160" height="42" rx="10" fill="#171717" stroke="#292929"/>
+      <text x="80" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#F5F5F5">CRM &amp; Invoicing</text>
+
+      <rect x="180" y="0" width="190" height="42" rx="10" fill="#171717" stroke="#292929"/>
+      <text x="275" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#F5F5F5">WhatsApp Alerts</text>
+
+      <rect x="390" y="0" width="160" height="42" rx="10" fill="#171717" stroke="#292929"/>
+      <text x="470" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="500" fill="#F5F5F5">Payment Tracking</text>
+    </g>
+
+    <!-- Creator Tag -->
+    <g transform="translate(0, 240)">
+      <text x="0" y="20" font-family="system-ui, sans-serif" font-size="14" font-weight="400" fill="#71717A">Directed &amp; Produced by <tspan fill="#F5F5F5" font-weight="600">Muhammad Saad</tspan> • Tools: Google Flow, Canva, CapCut</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Mockup & Play Circle -->
+  <g transform="translate(820, 180)">
+    <!-- Dashboard card mockup -->
+    <rect x="0" y="0" width="380" height="300" rx="16" fill="#171717" stroke="#292929" stroke-width="2"/>
+    <rect x="0" y="0" width="380" height="46" rx="16" fill="#1E1E22"/>
+    <circle cx="24" cy="23" r="6" fill="#EF4444"/>
+    <circle cx="44" cy="23" r="6" fill="#F59E0B"/>
+    <circle cx="64" cy="23" r="6" fill="#10B981"/>
+    <text x="190" y="28" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#A1A1AA">Business Dashboard UI</text>
+
+    <!-- Card Interior Mockups -->
+    <rect x="25" y="70" width="155" height="90" rx="8" fill="#222226" stroke="#2E2E34"/>
+    <text x="40" y="96" font-family="system-ui, sans-serif" font-size="11" fill="#71717A">Total Revenue</text>
+    <text x="40" y="125" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#C7F36B">Rs. 2.45M</text>
+
+    <rect x="200" y="70" width="155" height="90" rx="8" fill="#222226" stroke="#2E2E34"/>
+    <text x="215" y="96" font-family="system-ui, sans-serif" font-size="11" fill="#71717A">Paid Invoices</text>
+    <text x="215" y="125" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#38BDF8">98.4%</text>
+
+    <rect x="25" y="180" width="330" height="90" rx="8" fill="#1C2719" stroke="#2D4823"/>
+    <text x="40" y="210" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#C7F36B">WhatsApp Auto-Notification</text>
+    <text x="40" y="235" font-family="system-ui, sans-serif" font-size="12" fill="#E4E4E7">"Invoice #1042 successfully cleared. Thank you!"</text>
+
+    <!-- Play Button Overlay -->
+    <g transform="translate(190, 150)">
+      <circle cx="0" cy="0" r="46" fill="#0A0A0A" fill-opacity="0.9" stroke="#C7F36B" stroke-width="3"/>
+      <polygon points="-8,-16 16,0 -8,16" fill="#C7F36B"/>
+    </g>
+  </g>
+
+  <!-- Bottom Timeline Bar -->
+  <g transform="translate(80, 620)">
+    <line x1="0" y1="0" x2="1120" y2="0" stroke="#292929" stroke-width="2"/>
+    <line x1="0" y1="0" x2="480" y2="0" stroke="#C7F36B" stroke-width="3"/>
+    <text x="0" y="25" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#A1A1AA">00:45 / 01:15</text>
+    <text x="1120" y="25" text-anchor="end" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#C7F36B">ULTRA HD 60FPS</text>
+  </g>
+</svg>

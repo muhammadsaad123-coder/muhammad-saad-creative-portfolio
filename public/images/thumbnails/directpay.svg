@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111B17"/>
+      <stop offset="50%" stop-color="#0B1310"/>
+      <stop offset="100%" stop-color="#060A08"/>
+    </linearGradient>
+    <radialGradient id="dpGlow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="1000" fill="url(#dpBg)"/>
+  <rect width="1000" height="1000" fill="url(#dpGlow)"/>
+
+  <!-- Top Branding -->
+  <g transform="translate(80, 90)">
+    <rect width="200" height="42" rx="21" fill="#171717" stroke="#292929"/>
+    <circle cx="24" cy="21" r="6" fill="#10B981"/>
+    <text x="42" y="27" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">GRAPHIC DESIGN</text>
+
+    <rect x="680" width="160" height="42" rx="21" fill="#171717" stroke="#292929"/>
+    <text x="760" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#10B981">CANVA ASSETS</text>
+  </g>
+
+  <!-- Typography & Messaging -->
+  <g transform="translate(80, 200)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#10B981" letter-spacing="3">DIRECTPAY / DYNAMIC SOLUTIONS</text>
+    <text x="0" y="70" font-family="system-ui, sans-serif" font-size="58" font-weight="900" fill="#F5F5F5">Fast. Frictionless.</text>
+    <text x="0" y="140" font-family="system-ui, sans-serif" font-size="58" font-weight="900" fill="#C7F36B">Digital Checkout.</text>
+    <text x="0" y="200" font-family="system-ui, sans-serif" font-size="22" font-weight="400" fill="#A1A1AA">Promotional Social Media Creative &amp; Brand Hierarchy</text>
+  </g>
+
+  <!-- Center Card UI -->
+  <g transform="translate(80, 470)">
+    <!-- Main Card -->
+    <rect width="840" height="340" rx="24" fill="#171717" stroke="#292929" stroke-width="2"/>
+    
+    <g transform="translate(50, 60)">
+      <text x="0" y="0" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#71717A">INTEGRATED PAYMENT SOLUTION</text>
+      <text x="0" y="40" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="#F5F5F5">DirectPay Gateway</text>
+      
+      <rect x="0" y="70" width="400" height="60" rx="12" fill="#102D22" stroke="#165B43"/>
+      <text x="25" y="106" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#10B981">✓ 99.9% Uptime • Instant Verification</text>
+      
+      <text x="0" y="175" font-family="system-ui, sans-serif" font-size="15" fill="#A1A1AA">Optimized for Instagram, LinkedIn &amp; Web Banners</text>
+    </g>
+
+    <!-- Credit card aesthetic graphic -->
+    <g transform="translate(520, 50)">
+      <rect width="270" height="170" rx="16" fill="#1E2824" stroke="#2D4D3E" stroke-width="2"/>
+      <circle cx="45" cy="45" r="14" fill="#10B981"/>
+      <circle cx="70" cy="45" r="14" fill="#C7F36B" fill-opacity="0.7"/>
+      <text x="35" y="110" font-family="monospace" font-size="16" fill="#E4E4E7">••••  ••••  ••••  4092</text>
+      <text x="35" y="145" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#A1A1AA">EXPIRES 08/29</text>
+      <text x="200" y="145" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#10B981">PAY</text>
+    </g>
+  </g>
+
+  <!-- Footer Tag -->
+  <g transform="translate(80, 880)">
+    <line x1="0" y1="0" x2="840" y2="0" stroke="#292929" stroke-width="1.5"/>
+    <text x="0" y="45" font-family="system-ui, sans-serif" font-size="16" font-weight="600" fill="#F5F5F5">Layout Design &amp; Brand Styling by Muhammad Saad</text>
+    <text x="840" y="45" text-anchor="end" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#10B981">1080 x 1080 FEED ASSET</text>
+  </g>
+</svg>

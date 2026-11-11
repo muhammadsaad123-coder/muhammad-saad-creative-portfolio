@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="erpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121820"/>
+      <stop offset="50%" stop-color="#0A0F16"/>
+      <stop offset="100%" stop-color="#05080C"/>
+    </linearGradient>
+    <radialGradient id="erpGlow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="1280" fill="url(#erpBg)"/>
+  <rect width="720" height="1280" fill="url(#erpGlow)"/>
+
+  <!-- Top Status bar -->
+  <g transform="translate(60, 60)">
+    <rect width="180" height="38" rx="19" fill="#171717" stroke="#292929"/>
+    <circle cx="20" cy="19" r="5" fill="#38BDF8"/>
+    <text x="35" y="24" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#F5F5F5">9:16 REEL / SHORT</text>
+
+    <rect x="420" width="180" height="38" rx="19" fill="#171717" stroke="#292929"/>
+    <text x="510" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#38BDF8">URDU EXPLAINER</text>
+  </g>
+
+  <!-- Brand & Main Title -->
+  <g transform="translate(60, 160)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#38BDF8" letter-spacing="2">DYNAMIC SOLUTIONS PAKISTAN</text>
+    <text x="0" y="60" font-family="system-ui, sans-serif" font-size="44" font-weight="800" fill="#F5F5F5">Dynamic ERP Next</text>
+    <text x="0" y="115" font-family="system-ui, sans-serif" font-size="28" font-weight="600" fill="#C7F36B">WhatsApp &amp; AI Integration</text>
+  </g>
+
+  <!-- Smartphone Mockup Preview in Center -->
+  <g transform="translate(135, 330)">
+    <rect width="450" height="600" rx="36" fill="#141416" stroke="#2E3440" stroke-width="3"/>
+    
+    <!-- Phone top notch -->
+    <rect x="155" y="14" width="140" height="22" rx="11" fill="#0A0A0A"/>
+    
+    <!-- WhatsApp Chat UI inside phone -->
+    <g transform="translate(30, 70)">
+      <rect width="390" height="64" rx="12" fill="#1F2C34"/>
+      <circle cx="35" cy="32" r="18" fill="#00A884"/>
+      <text x="35" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">ERP</text>
+      <text x="68" y="28" font-family="system-ui, sans-serif" font-size="15" font-weight="700" fill="#E9EDEF">Dynamic ERP Assistant</text>
+      <text x="68" y="48" font-family="system-ui, sans-serif" font-size="12" fill="#00A884">AI Business Bot • Online</text>
+
+      <!-- Message bubble 1 -->
+      <rect x="10" y="90" width="310" height="75" rx="12" fill="#202C33"/>
+      <text x="25" y="116" font-family="system-ui, sans-serif" font-size="13" fill="#E9EDEF">نئی انوائس #5820 کسٹمر کو</text>
+      <text x="25" y="138" font-family="system-ui, sans-serif" font-size="13" fill="#00A884">واٹس ایپ پر روانہ کر دی گئی ہے!</text>
+      <text x="270" y="152" font-family="system-ui, sans-serif" font-size="10" fill="#8696A0">10:42 AM</text>
+
+      <!-- AI badge -->
+      <g transform="translate(10, 190)">
+        <rect width="370" height="120" rx="16" fill="#1E2A38" stroke="#38BDF8" stroke-width="1.5"/>
+        <text x="20" y="32" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#38BDF8">AI Business Intelligence</text>
+        <text x="20" y="62" font-family="system-ui, sans-serif" font-size="13" fill="#F5F5F5">Daily Sales Forecast: +18.5% Growth</text>
+        <text x="20" y="92" font-family="system-ui, sans-serif" font-size="12" fill="#A1A1AA">Automated stock reorder recommended for Zone 1</text>
+      </g>
+    </g>
+
+    <!-- Play button overlay -->
+    <g transform="translate(225, 430)">
+      <circle cx="0" cy="0" r="44" fill="#0A0A0A" fill-opacity="0.85" stroke="#38BDF8" stroke-width="3"/>
+      <polygon points="-8,-15 15,0 -8,15" fill="#38BDF8"/>
+    </g>
+  </g>
+
+  <!-- Urdu Tagline & Creator Bottom Card -->
+  <g transform="translate(60, 990)">
+    <rect width="600" height="160" rx="20" fill="#171717" stroke="#292929"/>
+    <text x="300" y="45" text-anchor="middle" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#F5F5F5">بزنس کا مستقبل: خودکار واٹس ایپ اور AI</text>
+    <text x="300" y="85" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#A1A1AA">AI Presenter • Urdu Script • CapCut Editing</text>
+    <line x1="60" y1="110" x2="540" y2="110" stroke="#292929" stroke-width="1"/>
+    <text x="300" y="138" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#C7F36B">Produced by Muhammad Saad</text>
+  </g>
+</svg>
